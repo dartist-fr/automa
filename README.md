@@ -4,8 +4,6 @@ Application Android de widgets personnalisables pour regrouper des informations 
 
 ## Télécharger Automa
 
-<badge></badge>
-
 - **Dernière version vérifiée : [Automa 0.15.0](https://github.com/dartist-fr/automa/releases/tag/v0.15.0)**
 - **[Télécharger directement l’APK 0.15.0](https://github.com/dartist-fr/automa/releases/download/v0.15.0/Automa-0_15_0.apk)**
 - [Consulter toutes les Releases](https://github.com/dartist-fr/automa/releases)
