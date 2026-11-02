@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dartist Widgets</string>
+    <string name="widget_description">Widget personnalisé depuis le Studio Dartist</string>
+</resources>
