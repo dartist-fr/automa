@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="14dp"
+    android:background="@drawable/widget_background">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="DARTIST" android:textColor="#B8C5CC" android:textSize="10sp" android:letterSpacing="0.12" />
+    <TextView android:id="@+id/widget_time" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="09:41" android:textColor="#F4F7F8" android:textSize="32sp" android:fontFamily="sans" android:textStyle="bold" />
+    <TextView android:id="@+id/widget_date" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Lundi 2 novembre" android:textColor="#B8C5CC" android:textSize="11sp" />
+</LinearLayout>
