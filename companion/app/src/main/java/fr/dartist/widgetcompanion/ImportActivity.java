@@ -45,7 +45,7 @@ public class ImportActivity extends Activity {
                 Object extra = intent.getParcelableExtra(Intent.EXTRA_STREAM);
                 if (extra instanceof Uri) {
                     try (java.io.InputStream in = getContentResolver().openInputStream((Uri) extra)) {
-                        if (in != null) raw = new String(in.readAllBytes(), StandardCharsets.UTF_8);
+                        if (in != null) { java.io.ByteArrayOutputStream out = new java.io.ByteArrayOutputStream(); byte[] buffer = new byte[4096]; int count; while ((count = in.read(buffer)) != -1) out.write(buffer, 0, count); raw = new String(out.toByteArray(), StandardCharsets.UTF_8); }
                     }
                 }
                 if (raw == null) raw = intent.getStringExtra(Intent.EXTRA_TEXT);
